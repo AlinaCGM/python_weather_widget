@@ -77,4 +77,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Geolocation functionality based on the browser's geolocation API.
 
 
+![image](https://github.com/AlinaCGM/python_weather_widget/assets/71669291/8688ff12-5c1e-47ea-9cf7-57f821e90edb)
 
