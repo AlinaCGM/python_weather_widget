@@ -1,0 +1,29 @@
+<!-- templates/weather/weather.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Widget</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'weather.css' %}">
+</head>
+<body>
+    <div class="weather-widget">
+    <div class="paragraph">
+        <div class="text-weather">
+            <span id="location">Stockholm, Sweden</span>
+            <span id="temperature">25 C</span>
+        </div>
+        <img class="sun" src="{{ image_url }}" alt="weather condition">   
+     </div>
+    <div>
+        <input class="inputField" type="text" placeholder="Search location.." id="locationInput">
+        <button class="weatherWidgetButtons" id="submitButton">Submit</button>
+    </div>
+  
+    <div id="loading">Loading...</div>
+    <div id="error" class="error">Error occurred, try to refresh the page</div>
+</div>
+    <script src="{% static 'weather.js' %}"></script>
+</body>
+</html>
